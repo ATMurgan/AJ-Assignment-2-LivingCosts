@@ -1,0 +1,95 @@
+/* Button basic style */
+.button {
+    -fx-background-color: #a31032;
+    -fx-text-fill: #f6dede;
+    -fx-border-color: #ea0707;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Comic Sans MS";
+}
+
+/* Button hover effect */
+.button:hover {
+    -fx-background-color: #c61543;
+    -fx-border-color: #ea0707;
+    -fx-cursor: hand;
+}
+
+/* Button pressed effect */
+.button:pressed {
+    -fx-background-color: #a31032;
+    -fx-border-color: #ea0707;
+}
+
+#mainPane{
+    -fx-background-color: #232121;
+}
+
+.label{
+    -fx-font-family: "Comic Sans MS";
+    -fx-text-fill: #f6dede;
+}
+
+/* General TableView Style */
+.table-view {
+    -fx-background-color: #f6dede;
+    -fx-border-color: #ea0707;
+    -fx-border-width: 2px;
+    -fx-font-size: 14px;
+}
+
+.table-view .column-header {
+    -fx-background-color: #232121;
+    -fx-text-fill: #f6dede;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-padding: 10px;
+}
+
+/* Style for Table Row */
+.table-row-cell {
+    -fx-background-color: #f6dede;
+    -fx-border-color: #a31032;
+    -fx-border-width: 1px;
+    -fx-font-family: "Comic Sans MS";
+}
+
+/* Style for Selected Row */
+.table-row-cell:selected {
+    -fx-background-color: #a31032;
+    -fx-text-fill: #f6dede;
+}
+
+/* Style for Table Columns */
+.table-column {
+    -fx-alignment: CENTER;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+}
+
+/* Hover Effect for Rows */
+.table-row-cell:hover {
+    -fx-background-color: #a31032;
+    -fx-text-fill: #f6dede;
+}
+
+/* Style the font of the TextField */
+.text-field {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-color: #f6dede;
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 2px;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+}
+
+/* Style the TextField when focused */
+.text-field:focused {
+    -fx-border-color: #a31032;
+    -fx-background-color: #f6dede;
+}

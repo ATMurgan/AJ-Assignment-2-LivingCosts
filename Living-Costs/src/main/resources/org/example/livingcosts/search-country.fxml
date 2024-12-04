@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainPane" prefHeight="469.0" prefWidth="686.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.livingcosts.SearchCountryController">
+   <children>
+      <Button fx:id="selectCityB" layoutX="468.0" layoutY="376.0" mnemonicParsing="false" onAction="#findCity" prefHeight="43.0" prefWidth="157.0" text="Select City">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="searchCountryB" layoutX="468.0" layoutY="35.0" mnemonicParsing="false" onAction="#searchCountry" prefHeight="43.0" prefWidth="157.0" text="Search ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TextField fx:id="countryInput" layoutX="205.0" layoutY="35.0" prefHeight="43.0" prefWidth="251.0" />
+      <Label layoutX="29.0" layoutY="35.0" prefHeight="43.0" prefWidth="165.0" text="Country Name: ">
+         <font>
+            <Font name="Comic Sans MS" size="23.0" />
+         </font>
+      </Label>
+      <TableView fx:id="countryCol" layoutX="29.0" layoutY="87.0" prefHeight="333.0" prefWidth="423.0">
+        <columns>
+          <TableColumn fx:id="cityNameCol" prefWidth="421.3333740234375" text="City Names" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

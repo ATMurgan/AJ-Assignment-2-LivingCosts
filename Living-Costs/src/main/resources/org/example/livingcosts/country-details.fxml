@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainPane" prefHeight="662.0" prefWidth="1031.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.livingcosts.CountryDetailsController">
+   <children>
+      <Button fx:id="backButton" layoutX="57.0" layoutY="350.0" mnemonicParsing="false" onAction="#BackToSearch" prefHeight="47.0" prefWidth="189.0" text="Back to Search">
+         <font>
+            <Font name="Comic Sans MS" size="17.0" />
+         </font>
+      </Button>
+      <Label fx:id="countryName" alignment="CENTER" layoutX="29.0" layoutY="32.0" prefHeight="47.0" prefWidth="179.0" text="Testing      " underline="true">
+         <font>
+            <Font name="Comic Sans MS" size="31.0" />
+         </font>
+      </Label>
+      <Label fx:id="cityName" layoutX="58.0" layoutY="75.0" prefHeight="41.0" prefWidth="122.0" text="test">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></Label>
+      <Label fx:id="cityId" layoutX="58.0" layoutY="140.0" prefHeight="41.0" prefWidth="122.0" text="test">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></Label>
+      <Label fx:id="latId" layoutX="58.0" layoutY="200.0" prefHeight="41.0" prefWidth="122.0" text="x">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></Label>
+      <Label fx:id="lngId" layoutX="58.0" layoutY="267.0" prefHeight="41.0" prefWidth="122.0" text="x">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></Label>
+      <Label fx:id="priceDetailsLabel" layoutX="293.0" layoutY="32.0" prefHeight="552.0" prefWidth="339.0" text="x">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font></Label>
+      <Label fx:id="priceDetailsLabel2" layoutX="647.0" layoutY="32.0" prefHeight="552.0" prefWidth="339.0" text="x">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
